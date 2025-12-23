@@ -11,7 +11,8 @@
         "soluna"
       ],
       "injection-regex": "^soluna$",
-      "class-name": "TreeSitterSoluna"
+      "class-name": "TreeSitterSoluna",
+      "highlights": "./queries/highlights.scm"
     }
   ],
   "metadata": {
