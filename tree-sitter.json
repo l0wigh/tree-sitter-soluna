@@ -5,13 +5,13 @@
       "name": "soluna",
       "camelcase": "Soluna",
       "title": "Soluna",
-      "scope": "source.soluna",
+      "scope": "source.luna",
       "file-types": [
-        "luna"
+        "luna",
+        "soluna"
       ],
       "injection-regex": "^soluna$",
-      "class-name": "TreeSitterSoluna",
-      "highlights": "queries/highlights.scm"
+      "class-name": "TreeSitterSoluna"
     }
   ],
   "metadata": {
