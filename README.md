@@ -1,6 +1,9 @@
 # Tree-sitter parser for Soluna
 
+This repo contains what need to have highlight with Soluna files.
+
 Since the project isn't mature enough to be pulled in [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter), you'll need to manually install this.
+
 
 ## Manual install
 
