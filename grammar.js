@@ -211,7 +211,7 @@ export default grammar({
     ),
 
     builtin: $ => choice(
-      "not", "type", "int", "str", "eval", "length",
+      "not", "type", "int", "float", "str", "eval", "length",
       "list", "cons", "fst", "rst", "get",
       "set", "null", "range", "concat", "reverse",
       "reduce", "explode",

@@ -2177,6 +2177,10 @@
     "named": false
   },
   {
+    "type": "float",
+    "named": false
+  },
+  {
     "type": "fst",
     "named": false
   },
