@@ -911,6 +911,10 @@
         {
           "type": "STRING",
           "value": "write-file"
+        },
+        {
+          "type": "STRING",
+          "value": "cmd"
         }
       ]
     },
