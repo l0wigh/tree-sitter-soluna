@@ -207,7 +207,8 @@ export default grammar({
 
     operator: $ => choice(
       '+', '-', '*', '/', 'mod',
-      '=', '!=', '<', '>', '<=', '>='
+      '=', '!=', '<', '>', '<=', '>=',
+      "and", "or", "xor", "nand", "nor", "xnor",
     ),
 
     builtin: $ => choice(
@@ -219,7 +220,7 @@ export default grammar({
       "dict-get", "dict-ref", "dict-remove",
       "dict-contains", "dict-keys", "dict-values",
       "write", "writeln", "input", "read-file", "write-file", "cmd",
-      "exit", "and", "or", "xor", "nand", "nor", "xnor",
+      "exit",
     ),
 
     identifier: $ => /[a-zA-Z+\-*/?!<>=_][a-zA-Z0-9+\-*/?!<>=_\-]*/,

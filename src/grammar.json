@@ -770,6 +770,30 @@
         {
           "type": "STRING",
           "value": ">="
+        },
+        {
+          "type": "STRING",
+          "value": "and"
+        },
+        {
+          "type": "STRING",
+          "value": "or"
+        },
+        {
+          "type": "STRING",
+          "value": "xor"
+        },
+        {
+          "type": "STRING",
+          "value": "nand"
+        },
+        {
+          "type": "STRING",
+          "value": "nor"
+        },
+        {
+          "type": "STRING",
+          "value": "xnor"
         }
       ]
     },
@@ -919,30 +943,6 @@
         {
           "type": "STRING",
           "value": "exit"
-        },
-        {
-          "type": "STRING",
-          "value": "and"
-        },
-        {
-          "type": "STRING",
-          "value": "or"
-        },
-        {
-          "type": "STRING",
-          "value": "xor"
-        },
-        {
-          "type": "STRING",
-          "value": "nand"
-        },
-        {
-          "type": "STRING",
-          "value": "nor"
-        },
-        {
-          "type": "STRING",
-          "value": "xnor"
         }
       ]
     },
