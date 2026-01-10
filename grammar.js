@@ -218,7 +218,8 @@ export default grammar({
       "implode", "split", "dict", "dict-set",
       "dict-get", "dict-ref", "dict-remove",
       "dict-contains", "dict-keys", "dict-values",
-      "write", "writeln", "input", "read-file", "write-file", "cmd"
+      "write", "writeln", "input", "read-file", "write-file", "cmd",
+      "exit", "and", "or", "xor", "nand", "nor", "xnor",
     ),
 
     identifier: $ => /[a-zA-Z+\-*/?!<>=_][a-zA-Z0-9+\-*/?!<>=_\-]*/,

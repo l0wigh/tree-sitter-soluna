@@ -2092,6 +2092,10 @@
     "named": false
   },
   {
+    "type": "and",
+    "named": false
+  },
+  {
     "type": "case",
     "named": false
   },
@@ -2169,6 +2173,10 @@
     "named": false
   },
   {
+    "type": "exit",
+    "named": false
+  },
+  {
     "type": "explode",
     "named": false
   },
@@ -2241,6 +2249,14 @@
     "named": false
   },
   {
+    "type": "nand",
+    "named": false
+  },
+  {
+    "type": "nor",
+    "named": false
+  },
+  {
     "type": "not",
     "named": false
   },
@@ -2251,6 +2267,10 @@
   {
     "type": "number",
     "named": true
+  },
+  {
+    "type": "or",
+    "named": false
   },
   {
     "type": "range",
@@ -2310,6 +2330,14 @@
   },
   {
     "type": "writeln",
+    "named": false
+  },
+  {
+    "type": "xnor",
+    "named": false
+  },
+  {
+    "type": "xor",
     "named": false
   }
 ]
